@@ -8,7 +8,7 @@ module.exports = {
     // First application
     {
       name      : "API",
-      script    : "lib\\app.js",
+      script    : "lib/app.js",
       env: {
         PORT: 3000
       },
@@ -20,7 +20,7 @@ module.exports = {
     // Second application
     {
       name      : "LoadJs",
-      script    : "lib\\load.js"
+      script    : "lib/load.js"
     }
   ],
 
