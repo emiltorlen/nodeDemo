@@ -20,7 +20,10 @@ module.exports = {
     // Second application
     {
       name      : "LoadJs",
-      script    : "lib/load.js"
+      script    : "lib/load.js",
+      env:{
+        PORT:3000
+      }
     }
   ],
 
